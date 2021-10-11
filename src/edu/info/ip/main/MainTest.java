@@ -9,7 +9,7 @@ public class MainTest {
     public static void main(String[] args) {
         BufferedImage inputImg= loadImage("./test_images/lena_color_512.bmp");
         displayImage(inputImg, "Original image");
-        //displayImage(generateRandom(600,600),"Random Pixels");
+        displayImage(generateRandom(600,600),"Random Pixels");
 
 //        displayImage(extractBand(inputImg, 'R'),"Red");
 //        displayImage(extractBand(inputImg, 'G'),"Green");
